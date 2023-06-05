@@ -1,0 +1,21 @@
+{
+  "name": "docker-strapi",
+  "version": "4.10.7",
+  "description": "Strapi v4+ single container, single volume setup",
+  "scripts": {
+    "develop": "node generateEnv && strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "4.10.7",
+    "@strapi/plugin-users-permissions": "4.10.7",
+    "@strapi/plugin-i18n": "4.10.7",
+    "better-sqlite3": "8.0.1"
+  },
+  "author": {
+    "name": "cplepage"
+  },
+  "license": "MIT"
+}
