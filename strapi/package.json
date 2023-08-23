@@ -1,6 +1,6 @@
 {
   "name": "docker-strapi",
-  "version": "4.12.0",
+  "version": "4.12.6",
   "description": "Strapi v4+ single container, single volume setup",
   "scripts": {
     "develop": "node generateEnv && strapi develop",
@@ -9,9 +9,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/strapi": "4.12.0",
-    "@strapi/plugin-users-permissions": "4.12.0",
-    "@strapi/plugin-i18n": "4.12.0",
+    "@strapi/strapi": "4.12.6",
+    "@strapi/plugin-users-permissions": "4.12.6",
+    "@strapi/plugin-i18n": "4.12.6",
     "better-sqlite3": "8.0.1"
   },
   "author": {
